@@ -1,0 +1,125 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+.card {
+  transition: 0.05s ease-in;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+@font-face {
+  font-family: "DanaFaNum Black";
+  src: url('/static/font/DanaFaNum-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Bold";
+  src: url('/static/font/DanaFaNum-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum DemiBold";
+  src: url('/static/font/DanaFaNum-DemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum ExtraBlack";
+  src: url('/static/font/DanaFaNum-ExtraBlack.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum ExtraBold";
+  src: url('/static/font/DanaFaNum-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Fat";
+  src: url('/static/font/DanaFaNum-fat.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Hairline";
+  src: url('/static/font/DanaFaNum-Hairline.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Heavy";
+  src: url('/static/font/DanaFaNum-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Light";
+  src: url('/static/font/DanaFaNum-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Medium";
+  src: url('/static/font/DanaFaNum-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Regular";
+  src: url('/static/font/DanaFaNum-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum Thin";
+  src: url('/static/font/DanaFaNum-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: "DanaFaNum UltraLight";
+  src: url('/static/font/DanaFaNum-UltraLight.woff') format('woff');
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #369cb8;
+  --ifm-color-primary-dark: #3496b1;
+  --ifm-color-primary-darker: #29758a;
+  --ifm-color-primary-darkest: #1d5463;
+  --ifm-color-primary-light: #4eb0cb;
+  --ifm-color-primary-lighter: #75c1d6;
+  --ifm-color-primary-lightest: #9cd3e2;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: "DanaFaNum Bold";
+  --ifm-heading-font-family: "DanaFaNum Medium";
+  --ifm-font-family-base: "DanaFaNum Regular";
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+div.markdown > p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div.markdown > ol, ul {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div.thin-scrollbar > ul > li > ul {
+  text-align: start !important;
+}
+
+img {
+  width: 100%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #75c1d6;
+  --ifm-color-primary-dark: #4eb0cb;
+  --ifm-color-primary-darker: #369cb8;
+  --ifm-color-primary-darkest: #3496b1;
+  --ifm-color-primary-light: #c4e5ee;
+  --ifm-color-primary-lighter: #c4e5ee;
+  --ifm-color-primary-lightest: #ebf6f9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
